@@ -1,4 +1,13 @@
 <?php
+/**
+ * @category        WHM Reseller Backup
+ * @package         a6smile enterprises WHM addon
+ * @author          Anom Wijaya
+ * @copyright       a6smile enterprises e.V.
+ * @link            http://www.a6smile.com
+ * @license         http://www.gnu.org/licenses/gpl.html
+ * @version         $Id:  $1.0
+**/
 /***** Credentials for WHM/cPanel account *****/
 $whmServerIp = ""; // Server IP or domain name eg: 212.122.3.77 or cpanel.domain.tld
 $cpanelServerIp = ""; // Server IP or domain name eg: 212.122.3.77 or cpanel.domain.tld
@@ -20,4 +29,11 @@ $emailNotification = ""; //Email address for backup notifications
 
 /***** Other Settings *****/
 $deleteBackupsAfter = 60; //How long to keep the backups for (in days) - Set to 0 for forever
+
+/**
+ * Please note: the below reference to the GNU GPL should not be removed, as it provides a link for users to read about warranty, etc.
+ * WHM Reseller Accounts Backup is released under the GNU General Public License
+ * Please note: the above reference to the GNU GPL should not be removed, as it provides a link for users to read about warranty, etc.
+**/
+
 ?>
