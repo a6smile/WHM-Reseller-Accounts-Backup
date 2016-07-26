@@ -1,4 +1,14 @@
 <?php
+/**
+ * @category        WHM Reseller Backup
+ * @package         a6smile enterprises WHM addon
+ * @author          Anom Wijaya
+ * @copyright       a6smile enterprises e.V.
+ * @link            http://www.a6smile.com
+ * @license         http://www.gnu.org/licenses/gpl.html
+ * @version         $Id:  $1.0
+**/
+
 /***** Configuration File *****/
 require_once "conf.php";
 
@@ -112,4 +122,11 @@ function endApp($reason = "")
 	//mail($emailNotification, "Backup Failed", $reason);
 	exit(0);
 }
+
+/**
+ * Please note: the below reference to the GNU GPL should not be removed, as it provides a link for users to read about warranty, etc.
+ * WHM Reseller Accounts Backup is released under the GNU General Public License
+ * Please note: the above reference to the GNU GPL should not be removed, as it provides a link for users to read about warranty, etc.
+**/
+
 ?>
