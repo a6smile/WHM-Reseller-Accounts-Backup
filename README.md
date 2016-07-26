@@ -1,5 +1,5 @@
-<h1>Auto Backup WHM and cPanel Resellers Accounts</h1>
-=====================================================
+Auto Backup WHM and cPanel Resellers Accounts
+=============================================
 
 This script will auto backup all the cPanel users that are found in WHM, and will auto upload them to FTP.
 
